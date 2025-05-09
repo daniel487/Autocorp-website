@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login – AutoCorp</title>
+  <!-- Boxicons for the little phone/map/social icons -->
+  <link rel="stylesheet" href="boxicons-2.0.9/css/boxicons.min.css">
+  <!-- Your master CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- NAVBAR TOP -->
+  <div class="navbar-top">
+    <ul class="info-list">
+      <li><i class="bx bxs-phone"></i> +234-803-763-3321</li>
+      <li><i class="bx bxs-map"></i> 145B Obadina St, Ojodu Berger, Lagos</li>
+    </ul>
+    <ul class="social-list">
+      <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+      <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+      <li><a href="#"><i class="bx bxl-instagram-alt"></i></a></li>
+    </ul>
+  </div>
+
+  <!-- NAVBAR BOTTOM -->
+  <div class="navbar-bottom">
+    <a href="index.html" class="brand-left">AutoCorp</a>
+    <ul class="menu-right">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#goal">Our Priorities</a></li>
+      <li><a href="index.html#teams">Team</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="index.html#services">Services</a></li>
+    </ul>
+    <div class="auth">
+      <a href="login.html" class="btn btn-outline">Login</a>
+      <a href="register.html" class="btn btn-left">Sign Up</a>
+    </div>
+  </div>
+
+  <!-- SCROLL-UP BUTTON -->
+  <button class="scroll-up-btn"><i class="bx bx-up-arrow-alt bx-sm"></i></button>
+
+  <!-- LOGIN FORM SECTION -->
+  <section class="auth-section">
+    <div class="auth-card">
+      <h2>Login to AutoCorp</h2>
+      <form action="dashboard.html" method="GET">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="pwd">Password</label>
+        <input id="pwd" name="password" type="password" required>
+
+        <div class="auth-row">
+          <a href="#" class="forgot">Forgot Password?</a>
+          <button type="submit" class="btn btn-left">Login</button>
+        </div>
+      </form>
+      <p class="switch">
+        Don’t have an account? <a href="register.html">Sign Up</a>
+      </p>
+    </div>
+  </section>
+
+  <script src="webapp.js"></script>
+</body>
+</html>
